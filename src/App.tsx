@@ -1,10 +1,12 @@
-// // App.tsx
-// import ClassComponent from "./componets/ClassComponent";
-// import FunctionalComponent from "./componets/FunctionalComponents";
-// import ArrowFunctionalComponent from "./componets/ArrowFunctionalComponent";
-import ArrowFunctionalComponentWithProps from "./componets/ArrowFunctionalComponentWithProps.tsx";
-// import ArrowFunctionalComponentWithPropsTypes from "./componets/ArrowFunctionalComponentWithPropsTypes.tsx";
-import Card from "./componets/Card.tsx";
+// // // App.tsx
+// // import ClassComponent from "./componets/ClassComponent";
+// // import FunctionalComponent from "./componets/FunctionalComponents";
+// // import ArrowFunctionalComponent from "./componets/ArrowFunctionalComponent";
+// import ArrowFunctionalComponentWithProps from "./componets/ArrowFunctionalComponentWithProps.tsx";
+import ArrowFunctionalComponentWithPropsTypes from "./componets/ArrowFunctionalComponentWithPropsTypes.tsx";
+// import Card from "./componets/Card.tsx";
+
+import Layout from "./componets/Layout.tsx";
 
 function App() {
     return (
@@ -18,12 +20,21 @@ function App() {
 
             {/*                                      description=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, quae!"/>*/}
 
-            <Card title="Card">
-              <ArrowFunctionalComponentWithProps
-                title="Is a Arrow Functional Component With 2 Props"
-                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, veniam."
-              />
-            </Card>
+            {/*<Card title="Card">*/}
+            {/*  <ArrowFunctionalComponentWithProps*/}
+            {/*    title="Is a Arrow Functional Component With 2 Props"*/}
+            {/*    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, veniam."*/}
+            {/*  />*/}
+            {/*</Card>*/}
+
+            <Layout>
+                <ArrowFunctionalComponentWithPropsTypes
+                  title="Is a Arrow Functional Component With 2 Props"
+                  description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, veniam."
+                />
+
+
+            </Layout>
         </>
     );
 }
