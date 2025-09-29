@@ -7,6 +7,7 @@ import ArrowFunctionalComponentWithPropsTypes from "./componets/ArrowFunctionalC
 // import Card from "./componets/Card.tsx";
 
 import Layout from "./componets/Layout.tsx";
+import FunctionalComponentWithState from "./componets/FunctionalComponentWithState.tsx";
 
 function App() {
     return (
@@ -28,10 +29,11 @@ function App() {
             {/*</Card>*/}
 
             <Layout>
-                <ArrowFunctionalComponentWithPropsTypes
-                  title="Is a Arrow Functional Component With 2 Props"
-                  description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, veniam."
-                />
+                {/*<ArrowFunctionalComponentWithPropsTypes*/}
+                {/*  title="Is a Arrow Functional Component With 2 Props"*/}
+                {/*  description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, veniam."*/}
+                {/*/>*/}
+                <FunctionalComponentWithState/>
 
 
             </Layout>
